@@ -8,7 +8,7 @@ https://i.gyazo.com/786d8c00f9d98bc6dd5363d18badb252.png
 ## Download/source:
 https://pastebin.com/wWY9W3EZ
 
-## Installatie:
+## Instalation:
 (Chrome with tampermonkey)
 Click on the tampermonkey icon in the top-right corner -> "Create a new script" -> Copy and paste the code from this repo -> ctrl+s to safe the script.
 
