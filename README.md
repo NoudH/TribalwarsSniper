@@ -17,6 +17,6 @@ Works on Chrome with tampermonkey.
 Should work on greasemonkey on firefox (untested).
 
 # Disclaimer
-**Use at your own risk!
-I don't know if you are allowed to use scripts like these on tribalwars. It is ultimatly your decision if you want to use these scripts.
-I am not responsible for getting your account banned! **
+**Use at your own risk!**
+**I don't know if you are allowed to use scripts like these on tribalwars. It is ultimatly your decision if you want to use these scripts.**
+**I am not responsible for getting your account banned!**
