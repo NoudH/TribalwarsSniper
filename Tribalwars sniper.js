@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Tribalwars sniper
 // @author       Doomness
-// @match        *.tribalwars.nl/game.php?village=*&screen=place&try=confirm
+// @match        *.tribalwars.*/game.php?village=*&screen=place&try=confirm
 // @grant        none
 // @require      http://code.jquery.com/jquery-latest.js
 // @require      http://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js
@@ -15,7 +15,7 @@ $(document).ready(function(){
 
 	$("head").append('<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">')
 	$($("table.vis")[0]).append(
-		'<p style="margin-top:5px; margin-bottom:0px;">Tijd van aankomst:</p>' +
+		'<p style="margin-top:5px; margin-bottom:0px;">Time of arrival:</p>' +
 		'<input class="timepicker" style="margin-top:5px; font-size: 13px;">'+
 		'<input type="text" class="milidelay" placeholder="miliseconds delay" style="margin-top:5px; font-size: 13px;">'+
 		'<input id="snipebtn" type="button" class="btn" value="Snipe" style="width:100px; margin-top:3px;">'
@@ -32,7 +32,7 @@ $(document).ready(function(){
 			scrollbar: false
 		});
 	$("input#snipebtn").click(function(){
-		console.log('Snipe gezet op: '+ $("input.timepicker").val() +':'+ parseInt($("input.milidelay").val()));
+		console.log('Snipe timed at: '+ $("input.timepicker").val() +':'+ parseInt($("input.milidelay").val()));
 		$("input#snipebtn").parent().append('<p style="margin-bottom:0px; font-size:13px;"> Snipe gezet op: ' + $("input.timepicker").val() +':'+ parseInt($("input.milidelay").val()) +'</p>');
 		snipeTimer()
 	});
