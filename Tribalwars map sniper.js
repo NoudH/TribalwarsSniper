@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Tribalwars map sniper
 // @author       Doomness
-// @match        *.tribalwars.nl/game.php?village=*&screen=map*
+// @match        *.tribalwars.*/game.php?village=*&screen=map*
 // @require      http://code.jquery.com/jquery-latest.js
 // @require      http://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js
 // @run-at       document-end
