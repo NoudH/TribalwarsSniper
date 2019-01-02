@@ -63,6 +63,7 @@ function snipeTimer(){
 	} else {
 		setTimeout(snipeTimer, 10);
 	}
+	$("input.troop_confirm_go").on('click', () => {storeTime();});
 }
 
 function storeTime(){
