@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Tribalwars Cancel Sniper. Use together with my sniper scripts.
 // @author       Doomness
-// @match        *.tribalwars.nl/game.php?village=*&screen=place
+// @match        *.tribalwars.{enter top-level domain here! (.net, .com, .nl, .es, etc.)}/game.php?village=*&screen=place
 // @require      http://code.jquery.com/jquery-latest.js
 // @require      http://cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js
 // @run-at       document-end
