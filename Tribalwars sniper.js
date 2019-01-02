@@ -36,6 +36,7 @@ $(document).ready(function(){
 		$("input#snipebtn").parent().append('<p style="margin-bottom:0px; font-size:13px;"> Snipe gezet op: ' + $("input.timepicker").val() +':'+ parseInt($("input.milidelay").val()) +'</p>');
 		snipeTimer()
 	});
+	$("input.troop_confirm_go").on('click', () => {storeTime();});
 })
 
 function snipeTimer(){
@@ -43,6 +44,23 @@ function snipeTimer(){
 		setTimeout(function() {
 			$("input.troop_confirm_go").click();
 		}, parseInt($("input.milidelay").val()));
+	} else {
+		setTimeout(snipeTimer, 10);
 	}
-	setTimeout(snipeTimer, 10);
 }
+
+function storeTime(){
+	var orders = JSON.parse(sessionStorage.getItem("storedTime"));
+	if(orders == null){
+		orders = [];
+	}
+	var orderObject = {
+		startCoords : $("#menu_row2").find("b.nowrap").text(),
+		startTime : $("span#serverTime").text(),
+		endTime : $("span.relative_time").text().substring($("span.relative_time").text().length - 9, 8),
+		destination : $("span.village_anchor.contexted").find("a").first().text()
+	}
+	orders.push(orderObject);
+	sessionStorage.setItem("storedTime", JSON.stringify(orders));
+}
+
