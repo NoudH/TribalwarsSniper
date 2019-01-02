@@ -26,8 +26,10 @@ function setupControls(){
 	$("div#commands_outgoings").find("tr").first().append('<th>snipe in:</th>');
 
 	$("tr.command-row").each((k,v) =>{
-		$(v).prepend('<td><input type="checkbox" class="commands" val="' + k + '"></td>');
-		$(v).append('<td class="timeReturn" name="' + k + '"></td>');
+		if(!$("tr.command-row").hasClass("no_ignored_command")){
+			$(v).prepend('<td><input type="checkbox" class="commands" val="' + k + '"></td>');
+			$(v).append('<td class="timeReturn" name="' + k + '"></td>');
+		}
 	});
 
 	$("a.command-cancel").each((k, v)=>{
