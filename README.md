@@ -17,6 +17,7 @@ Click on the tampermonkey icon in the top-right corner -> "Create a new script" 
 ## Compatibility:
 Works on Chrome with tampermonkey.
 Should work on greasemonkey on firefox (untested).
+Cancel sniper only works when used in the same browsertab as the one that send the attack!
 
 # Disclaimer
 **Use at your own risk!**
