@@ -10,14 +10,17 @@ https://pastebin.com/wWY9W3EZ
 
 ## Instalation:
 (Chrome with tampermonkey)
+
 Click on the tampermonkey icon in the top-right corner -> "Create a new script" -> Copy and paste the code from this repo -> ctrl+s to safe the script.
 
 **IMPORTANT: change the top-level domain in the comment block up top! (.com, .net, .es, .nl, etc.)**
 
 ## Compatibility:
 Works on Chrome with tampermonkey.
+
 Should work on greasemonkey on firefox (untested).
-Cancel sniper only works when used in the same browsertab as the one that send the attack!
+
+**Cancel sniper only works when used in the same browsertab as the one that send the attack!**
 
 # Disclaimer
 **Use at your own risk!**
