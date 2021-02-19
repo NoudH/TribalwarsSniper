@@ -5,9 +5,6 @@ https://i.gyazo.com/50f54c26b9e83ac84aa3e7b9eea6e815.mp4
 
 https://i.gyazo.com/786d8c00f9d98bc6dd5363d18badb252.png
 
-## Download/source:
-https://pastebin.com/wWY9W3EZ
-
 ## Instalation:
 (Chrome with tampermonkey)
 
